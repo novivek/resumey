@@ -12,6 +12,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title> Portfolio</title>
   </head>
   <body>
@@ -41,13 +42,15 @@
           <!-- <li><a href="#contact">CONTACT US</a></li> -->
         </ul>
       </nav>
+      <div data-aos="flip-right">
       <div class="myss" style="margin: auto;width: 70%;">
       <h1 class="mys" style="top: 70px; position: relative; color: white;padding: 20px; font-size: 2.3rem;">Full Stack Developer 
         <p class="mys" style="font-size: 1.2rem; margin-top: 30px; width: 80%;">"Driven by curiosity and a relentless pursuit of excellence in every project I tackle." </p>
       </h1>
     </div>
+        </div>
     </header>
-
+<div data-aos="zoom-in-up">
     <div class="section__container about__container" id="about">
       <h2 class="section__header">My self</h2>
       <p class="section__description">
@@ -59,7 +62,7 @@
       <img src="https://onyxmusicreviews.com/wp-content/uploads/2023/04/code-150.jpg" alt="logo" style="border-radius: 50%;"/>
     </div>
 
-    
+    </div>
 
 
 
@@ -146,7 +149,10 @@
         Copyright © 2024 Web Design Mastery. All rights reserved.
       </div>
     </footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
